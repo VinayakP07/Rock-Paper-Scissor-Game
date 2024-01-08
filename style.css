@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: rgb(11, 11, 41);
+    color: white;
+}
+
+.message{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#msg{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    background-color: rgb(19, 19, 92);
+    color: white;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 0.3rem solid black;
+}
+
+.choices{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    gap: 5rem;
+}
+
+#rock ,#paper ,#scissor{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+#rock:hover, #paper:hover, #scissor:hover{
+    cursor: pointer;
+    border: 0.5rem solid black;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#user,#comp{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+body{
+    background-color: rgb(6, 251, 255);
+}
