@@ -30,16 +30,16 @@ let playgame = (userChoice) =>
     if(userChoice===compChoice)
     {
         let msg = document.querySelector("#msg");
-        msg.innerText = `Game draw !! Computer Selected ${userChoice}`;
+        msg.innerText = `Game draw !! Computer Selected ${compChoice}`;
     }
     else
     {
-        userWin=true;
-        if(userChoice===rock)
+        let userWin=true;
+        if(userChoice==="rock")
         {
             userWin = compChoice==="paper" ? false : true;
         }
-        else if(userChoice===paper)
+        else if(userChoice==="paper")
         {
             userWin = compChoice==="scissor" ? false : true;
         }
